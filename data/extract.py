@@ -84,16 +84,17 @@ class ExtractAttack:
 	def fillDDI(self, dic, oKey, iKey):
 		if not dic.has_key(oKey):
 			dic[oKey] = {}
-
 		if dic[oKey].has_key(iKey):
 			dic[oKey][iKey] = dic[oKey][iKey] + 1
+			print(dic[oKey][iKey])
 		else:
 			dic[oKey][iKey] = 1
+			print(dic[oKey][iKey])
 
 
 if __name__ == '__main__':
 	objExAttack = ExtractAttack()
-	#objExAttack.readFile('attack.txt')
-	#objExAttack.adjustLine('test.txt')
-	#objExAttack.readAttack('adjust.txt')
+	objExAttack.readFile('attack.txt')
+	objExAttack.adjustLine('test.txt')
+	objExAttack.readAttack('adjust.txt')
 	objExAttack.totalAttack('readAttack.txt')
