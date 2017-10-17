@@ -1,0 +1,5 @@
+apache2 arppoison back crashiis dosnuke land mailbomb synflood pod processtable selfping smurf sshprocesstable syslogd tcpreset teardrop udpstorm 
+anypw casesen eject ffbconfig fdfformat loadmodule ntfsdos perl ps sechole xterm yaga
+dictionary ftpwrite guest httptunnel imap named ncftp netbus netcat phf ppmacro sendmail sshtrojan xlock xsnoop
+insidesniffer ipsweep lsdomain mscan ntinfoscan nmap queso resetscan saint satan 
+secret
